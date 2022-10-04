@@ -49,12 +49,13 @@
     height: fit-content;
     z-index: 1;
     margin-right: 30px;
+    border: none;
 }
 
 .about__section--left img {
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 25px;
     background-color: #1d1d1d;
     bottom: 0;
 }
