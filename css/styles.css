@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @font-face {
     font-family: sequel;
     src: url(../fonts/sequel/Sequel100Black-45.ttf);
@@ -28,7 +30,8 @@ html {
     background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-  
+
+
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
@@ -39,6 +42,10 @@ h1 {
     font-weight: bolder;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
 .button {
     display: flex;
     justify-content: center;
@@ -51,6 +58,7 @@ h1 {
     display: block;
     padding: 0.4em 0.8em;
 }
+
 
 .button a {
     text-decoration: none;

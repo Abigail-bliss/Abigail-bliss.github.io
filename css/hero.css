@@ -1,7 +1,6 @@
 .hero__container {
     width: 100%;
     height: 100vh;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,21 +15,39 @@
     align-items: center;
     border: 4px solid white;
     inset: 20% 10% 10% 10%;
+    z-index: -1;
 }
 
 .name__first {
     position: absolute;
     top: 5%;
     left: 5%;
-    text-shadow: -10px 10px #BB403A;
+    /* text-shadow: -10px 10px #BB403A; */
+}
+
+.name__first__shadow {
+    position: absolute;
+    top: 6.5%;
+    left: 4%;
+    color: #BB403A;
+    z-index: -1;
 }
 
 .name__last {
     position: absolute;
     bottom: 0;
-    right: 5%;
-    text-shadow: -10px 10px #3C529B;
+    right: 10%;
+    /* text-shadow: -10px 10px #3C529B; */
 }
+
+.name__last__shadow {
+    position: absolute;
+    right: 11%;
+    bottom: -2%;
+    color: #3C529B;
+    z-index: -1;
+}
+
 
 .hero__box p {
     text-align: left;

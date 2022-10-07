@@ -1,0 +1,55 @@
+#files {
+    display: flex;
+    justify-content: center;
+}
+
+.files__container {
+    width: 90%;
+    align-items: center;
+}
+
+.files__container h1 {
+    width: 100%;
+    text-align: left;
+}
+
+.buttons__container {
+    display: flex;
+    flex-direction: row;
+}
+.mybutton {
+    display: flex;
+    margin: 1rem;
+}
+
+.mybutton button {
+    color: #000000;
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.button__shadow {
+    position: relative;
+    width: 15rem;
+    height: 5rem;
+    z-index: -1;
+    transform: translate(-10px, 10px);
+    /* left: 10%;
+    top: 271%; */
+    
+}
+
+.red {
+    background-color: #BB403A;
+}
+
+.mybutton:hover button {
+    background-color: #BB403A;
+}
+
+.mybutton:hover .red {
+    background-color: white;
+}

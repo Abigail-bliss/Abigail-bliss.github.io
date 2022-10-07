@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: space-between;
   float: right;
+  position: fixed;
+  right: 0;
+  z-index: 10;
 }
 
 .primary-navigation {
