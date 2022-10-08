@@ -17,6 +17,8 @@
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+    width: 80vw;
+    text-align: center;
 }
 
 .buttons__container {
