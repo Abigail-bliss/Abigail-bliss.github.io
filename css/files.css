@@ -13,21 +13,35 @@
     text-align: left;
 }
 
+.files_container_description {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
 .buttons__container {
     display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly
 }
 .mybutton {
     display: flex;
-    margin: 1rem;
+    margin: 3rem 5rem;
 }
 
 .mybutton button {
     color: #000000;
+    /* width: clamp(15rem, 15rem, fit-content); */
     width: 15rem;
     height: 5rem;
     font-size: 2rem;
     z-index: 1;
+    padding: 1rem;
     position: absolute;
 }
 
@@ -37,19 +51,39 @@
     height: 5rem;
     z-index: -1;
     transform: translate(-10px, 10px);
-    /* left: 10%;
-    top: 271%; */
-    
 }
 
 .red {
     background-color: #BB403A;
 }
 
-.mybutton:hover button {
+.blue {
+    background-color: #3C529B;
+}
+
+.mybutton:hover .redfade {
     background-color: #BB403A;
+    transition: 0.3s;
+}
+
+.mybutton:hover .bluefade {
+    background-color: #3C529B;
+    transition: 0.3s;
 }
 
 .mybutton:hover .red {
     background-color: white;
+    transition: 0.3s;
+
+}
+.mybutton:hover .blue {
+    background-color: white;
+    transition: 0.3s;
+}
+
+.myfiles__shadow {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: -2%;
 }
