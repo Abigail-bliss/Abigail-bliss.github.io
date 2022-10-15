@@ -1,6 +1,7 @@
 #files {
     display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .files__container {
@@ -11,6 +12,7 @@
 .files__container h1 {
     width: 100%;
     text-align: left;
+
 }
 
 .files_container_description {
@@ -21,6 +23,7 @@
     text-align: center;
 }
 
+
 .buttons__container {
     display: flex;
     flex-direction: column;
@@ -29,8 +32,15 @@
 .rows {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
+
+.cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .mybutton {
     display: flex;
     margin: 3rem 5rem;
@@ -68,6 +78,14 @@
     transition: 0.3s;
 }
 
+.redtext {
+    color: #BB403A;
+}
+
+.bluetext {
+    color:#3C529B;
+}
+
 .mybutton:hover .bluefade {
     background-color: #3C529B;
     transition: 0.3s;
@@ -86,6 +104,105 @@
 .myfiles__shadow {
     position: absolute;
     z-index: -1;
-    top: 50%;
-    left: -2%;
+    top: 85%;
+    left: -1%;
+}
+
+#productdesign {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.productdesign__container {
+    width: 90%;
+    align-items: center;
+}
+
+.productdesign__container h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 9vw;
+}
+
+.redshadow {
+    text-shadow: -10px 10px #BB403A;
+}
+
+.blueshadow {
+    text-shadow: -10px 10px #3C529B;
+}
+
+.productdesign__shadow {
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: -1%;
+}
+
+.pd_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.pd_box .text {
+    margin: 1.5rem;
+    width: 65%;
+    text-align: center;
+}
+
+.pd_box h2 {
+    font-size: 4vw;
+    margin-bottom: 1rem;
+}
+.pd_box p, h3, ul {
+    text-align: left;
+}
+
+.pd_box h3 {
+    color: #3C529B;
+}
+
+.pd_box .blueh2 {
+    text-shadow: -5px 5px #3C529B;
+    text-align: center;
+} 
+.pd_box .redh2 {
+    text-shadow: -5px 5px #BB403A;
+    text-align: center;
+} 
+
+.pd_box img {
+    width: 100%;
+}
+
+.pd_box iframe {
+    align-self: center;
+    margin: 1.5rem;
+}
+
+.redtext {
+    color: #BB403A;
+}
+
+.text iframe {
+    width: 80%;
+}
+
+.fiesta {
+    margin: 2rem 0;
+}
+
+.checkbox {
+    width: 50%;
+}
+
+.pd_box .text .checkbox p {
+    text-align: center;
+}
+
+.center {
+    align-self: center;
+    text-align: center;
 }

@@ -20,15 +20,16 @@
 
 .name__first {
     position: absolute;
-    top: 5%;
+    top: 7%;
     left: 5%;
-    /* text-shadow: -10px 10px #BB403A; */
+    bottom: sticky;
 }
 
 .name__first__shadow {
     position: absolute;
-    top: 6.5%;
+    top: 8.5%;
     left: 4%;
+    bottom: sticky;
     color: #BB403A;
     z-index: -1;
 }
@@ -63,24 +64,24 @@
 }
 
 @keyframes text-change {
-    0% {content: 'Computer Science major.'; opacity: 0;}
-    10% {content: "Computer Science major."; opacity: 1;}
-    20% {content: "Computer Science major."; opacity: 0;}
+    0% {content: ' Computer Science major.'; opacity: 0;}
+    10% {content: " Computer Science major."; opacity: 1;}
+    20% {content: " Computer Science major."; opacity: 0;}
 
-    21% {content: 'Product Design minor.'; opacity: 0; }
-    30% {content: 'Product Design minor.'; opacity: 1; }
-    40% {content: 'Product Design minor.'; opacity: 0; }
+    21% {content: ' Product Design minor.'; opacity: 0; }
+    30% {content: ' Product Design minor.'; opacity: 1; }
+    40% {content: ' Product Design minor.'; opacity: 0; }
 
-    41% {content: 'Photographer.'; opacity: 0; }
-    50% {content: 'Photographer.'; opacity: 1;}
-    60% {content: 'Photographer.'; opacity: 0;}
+    41% {content: ' software consultant.'; opacity: 0; }
+    50% {content: ' software consultant.'; opacity: 1;}
+    60% {content: ' software consultant.'; opacity: 0;}
 
-    61% {content: 'Videographer.'; opacity: 0; }
-    70% {content: 'Videographer.'; opacity: 1;}
-    80% {content: 'Videographer.'; opacity: 0;}
+    61% {content: ' web developer.'; opacity: 0; }
+    70% {content: ' web developer.'; opacity: 1;}
+    80% {content: ' web developer.'; opacity: 0;}
 
-    81% {content: 'huge movie and TV fan.'; opacity: 0; }
-    90% {content: 'huge movie and TV fan.'; opacity: 1;}
-    100% {content: 'huge movie and TV fan.'; opacity: 0;}
+    81% {content: ' an artist.'; opacity: 0; }
+    90% {content: ' an artist.'; opacity: 1;}
+    100% {content: ' an artist.'; opacity: 0;}
 }
 
