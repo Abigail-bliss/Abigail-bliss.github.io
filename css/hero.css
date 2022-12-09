@@ -80,8 +80,8 @@
     70% {content: ' web developer.'; opacity: 1;}
     80% {content: ' web developer.'; opacity: 0;}
 
-    81% {content: ' an artist.'; opacity: 0; }
-    90% {content: ' an artist.'; opacity: 1;}
-    100% {content: ' an artist.'; opacity: 0;}
+    81% {content: 'n artist.'; opacity: 0; }
+    90% {content: 'n artist.'; opacity: 1;}
+    100% {content: 'n artist.'; opacity: 0;}
 }
 
