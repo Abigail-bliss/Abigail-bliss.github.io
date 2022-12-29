@@ -1,4 +1,4 @@
-import './resources/css/Box.css';
+import './resources/css/Box.css?version=2';
 
 const Box = ({children, flexDirection}) => {
     let className = 'white-border';

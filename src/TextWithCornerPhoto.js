@@ -1,4 +1,4 @@
-import './resources/css/TextWithCornerPhoto.css';
+import './resources/css/TextWithCornerPhoto.css?version=2';
 
 const TextWithCornerPhoto = ({imgSource, imgSourceAltText, photoPlacement, content}) => {
     let className = 'image__';

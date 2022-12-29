@@ -1,4 +1,4 @@
-import './resources/css/Button.css';
+import './resources/css/Button.css?version=2';
 
 const Button = ({shadowColor, buttonText, buttonLink}) => {
     let className = 'button';

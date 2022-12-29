@@ -1,4 +1,4 @@
-import './resources/css/NavBar.css';
+import './resources/css/NavBar.css?version=2';
 import {useState} from 'react';
 
 const Navbar = () => {

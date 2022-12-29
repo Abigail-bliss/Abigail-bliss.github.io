@@ -1,4 +1,4 @@
-import './resources/css/SectionTitle.css';
+import './resources/css/SectionTitle.css?version=2';
 
 const SectionTitle = ({titleRed, titleBlue, id}) => {
     return (

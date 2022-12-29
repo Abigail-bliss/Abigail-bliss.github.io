@@ -1,5 +1,5 @@
 
-import './resources/css/ProductDesign.css';
+import './resources/css/ProductDesign.css?version=2';
 
 const PortfolioSection = ({title, titlePlacement, titleColor, text, children}) => {
     return (  

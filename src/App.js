@@ -1,7 +1,7 @@
 import NavBar from './NavBar';
 import Hero from './Hero';
 import SectionTitle from './SectionTitle';
-import './resources/css/App.css';
+import './resources/css/App.css?version=2';
 import TextWithCornerPhoto from './TextWithCornerPhoto';
 import abigailPhoto from "./resources/images/abigail-headshot-dark-background-border.png";
 import resume from './resources/attachments/abigail-bliss-resume.pdf';
