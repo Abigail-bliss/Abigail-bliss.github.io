@@ -1,0 +1,118 @@
+.hero__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__box {
+    position: absolute;
+    width: min(80%, 75.5rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    inset: 20% 10% 10% 10%;
+    z-index: -1;
+}
+
+.name__first {
+    position: absolute;
+    top: 40px;
+    left: 7%;
+    text-shadow: -10px 10px var(--red);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.name__last {
+    position: absolute;
+    bottom: 25px;
+    right: 8%;
+    text-shadow: -10px 10px var(--blue);
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 1320px){
+    .name__first{
+        top: 50px;
+    }
+}
+
+@media (max-width: 1000px){
+    .name__first{
+        top: 80px;
+    }
+}
+
+@media (max-width: 700px){
+    .name__first{
+        top: 100px;
+        text-shadow: -8px 9px var(--red);
+    }
+
+    .name__last {
+        bottom: 55px;
+        text-shadow: -8px 8px var(--blue);
+    }
+}
+
+.name__first__shadow {
+    position: absolute;
+    top: 8.5%;
+    left:6%;
+    bottom: sticky;
+    color: var(--red);
+    z-index: -1;
+}
+
+.name__last__shadow {
+    position: absolute;
+    right: 11%;
+    bottom: -2%;
+    color: var(--blue);
+    z-index: -1;
+    /* background-color: #1b1b1b; */
+    /* text-shadow:  */
+}
+
+
+.hero__box p {
+    text-align: left;
+    margin: 0px 30% 0px 30%;
+    width: 100%;
+    font-size: clamp(15px, 3.5vw, 20px);
+}
+
+.hero__box span::before{
+    content: '';
+    opacity: 0;
+    animation: text-change infinite 16s;
+}
+
+@keyframes text-change {
+    0% {content: ' computer science major & product design minor.'; opacity: 0;}
+    10% {content: " computer science major & product design minor."; opacity: 1;}
+    20% {content: " computer science major & product design minor."; opacity: 0;}
+
+    21% {content: ' training for a marathon.'; opacity: 0; }
+    30% {content: ' training for a marathon.'; opacity: 1; }
+    40% {content: ' training for a marathon.'; opacity: 0; }
+
+    41% {content: ' software consultant.'; opacity: 0; }
+    50% {content: ' software consultant.'; opacity: 1;}
+    60% {content: ' software consultant.'; opacity: 0;}
+
+    61% {content: ' passionate about movies and TV.'; opacity: 0; }
+    70% {content: ' passionate about movies and TV.'; opacity: 1;}
+    80% {content: ' passionate about movies and TV.'; opacity: 0;}
+
+    81% {content: 'an artist.'; opacity: 0; }
+    90% {content: 'an artist.'; opacity: 1;}
+    100% {content: 'an artist.'; opacity: 0;}
+}
+
+

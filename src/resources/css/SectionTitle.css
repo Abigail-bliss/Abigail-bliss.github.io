@@ -1,0 +1,11 @@
+.section_container {
+    padding: 3rem 0;
+}
+
+.titleRed {
+    text-shadow: -10px 10px var(--red);
+}
+
+.titleBlue {
+    text-shadow: -10px 10px var(--blue);
+}
