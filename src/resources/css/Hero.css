@@ -94,25 +94,25 @@
 }
 
 @keyframes text-change {
-    0% {content: ' computer science major & product design minor.'; opacity: 0;}
-    10% {content: " computer science major & product design minor."; opacity: 1;}
-    20% {content: " computer science major & product design minor."; opacity: 0;}
+    0% {content: ' an incoming software engineer at Gartner.'; opacity: 0; }
+    10% {content: ' an incoming software engineer at Gartner.'; opacity: 1;}
+    20% {content: ' an incoming software engineer at Gartner.'; opacity: 0;}
 
-    21% {content: ' training for a marathon.'; opacity: 0; }
-    30% {content: ' training for a marathon.'; opacity: 1; }
-    40% {content: ' training for a marathon.'; opacity: 0; }
+    41% {content: ' training for a marathon.'; opacity: 0; }
+    50% {content: ' training for a marathon.'; opacity: 1; }
+    60% {content: ' training for a marathon.'; opacity: 0; }
 
-    41% {content: ' software consultant.'; opacity: 0; }
-    50% {content: ' software consultant.'; opacity: 1;}
-    60% {content: ' software consultant.'; opacity: 0;}
+    21% {content: ' a senior at The University of Minnesota studying computer science & product design.'; opacity: 0;}
+    30% {content: "  a senior at The University of Minnesota studying computer science & product design."; opacity: 1;}
+    40% {content: " a senior at The University of Minnesota studying computer science & product design."; opacity: 0;}
 
-    61% {content: ' passionate about movies and TV.'; opacity: 0; }
-    70% {content: ' passionate about movies and TV.'; opacity: 1;}
-    80% {content: ' passionate about movies and TV.'; opacity: 0;}
+    61% {content: ' a software consultant at Fishbowl Solutions.'; opacity: 0;}
+    70% {content: ' a software consultant at Fishbowl Solutions.'; opacity: 1;}
+    80% {content: ' a software consultant at Fishbowl Solutions.'; opacity: 0;}
 
-    81% {content: 'an artist.'; opacity: 0; }
-    90% {content: 'an artist.'; opacity: 1;}
-    100% {content: 'an artist.'; opacity: 0;}
+    81% {content: 'moving to New York this May.'; opacity: 0; }
+    90% {content: 'moving to New York this May.'; opacity: 1;}
+    100% {content: 'moving to New York this May.'; opacity: 0;}
 }
 
 

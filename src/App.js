@@ -11,7 +11,7 @@ import PortfolioSection from './PortfolioSection';
 
 function App() {
   const aboutText = ([
-    {text: "I am a Senior at The University of Minnesota - Twin Cities. I will graduate in May 2023 with a Bachelor of Arts in computer science and a minor in product design. ", id: 1},
+    {text: "I am a Senior at The University of Minnesota - Twin Cities, majoring in computer science with a minor in product design. Following my graduation I will be moving to Manhattan to begin my career as a Associate Software Engineer at Gartner. ", id: 1},
     {text: "My love for technology and creative expression was born in middle school. My Mom was a professional photographer; she showed me the ropes in all things photography from the camera itself to creating a workflow and editing with Adobe products. Before I knew it I was creating digital drawings in Photoshop, making videos in Premier Pro, and tinkering with lenses and lighting to experiment with cool effects. This passion has persisted with me to this day, guiding me through my technological and design centered studies. ", id: 2},
     {text: "In addition to being a full-time student, I am a software consultant intern at Fishbowl Solutions, located in St. Louis Park, Minnesota. I enjoy working with our web-hosted software services ranging from Oracle products to our own proprietary software. I am also a product manager & design intern and assistant software developer at Fiesta LLC. Fiesta is a start-up app that provides real-time data regarding wait times and experiences at bars and restaurants in Minneapolis. I work closely with the founders and enjoy the research and development I have done over the past year. ", id: 3},
   ]);
