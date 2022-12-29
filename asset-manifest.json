@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbdf53cb.css",
+    "main.js": "/static/js/main.ed6cf46c.js",
+    "static/media/abigail-headshot-dark-background-border.png": "/static/media/abigail-headshot-dark-background-border.9f44d2b6e7d115f0ff26.png",
+    "static/media/abigail-bliss-resume.pdf": "/static/media/abigail-bliss-resume.f75301b1f108dc0a73a7.pdf",
+    "static/media/Sequel100Black-45.ttf": "/static/media/Sequel100Black-45.02ab319b0eed5c5c6406.ttf",
+    "index.html": "/index.html",
+    "main.dbdf53cb.css.map": "/static/css/main.dbdf53cb.css.map",
+    "main.ed6cf46c.js.map": "/static/js/main.ed6cf46c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbdf53cb.css",
+    "static/js/main.ed6cf46c.js"
+  ]
+}
