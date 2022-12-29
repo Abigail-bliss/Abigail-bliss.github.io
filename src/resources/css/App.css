@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@font-face {
+    font-family: sequel;
+    src: url(../fonts/Sequel100Black-45.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sequel;
+    color: white;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background-color: #1b1b1b;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+:root {
+    --red: #BB403A;
+    --blue: #3C529B;
+}
+
+.white-border {
+    display: block;
+    border: 4px solid white;
+    margin: 10px
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+h1 {
+    font-size: clamp(3.5rem, 10vw + 1rem, 9rem);
+    font-weight: bolder;
+}
+h2 {
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+    font-weight: bolder;
+}
+
+p {
+    /* font-size: clamp(.5rem, 1rem, 1rem); */
+    font-size: clamp(.75rem, 1vw, 1rem);
+}
+
+.red {
+    text-shadow: -5px 5px var(--red);
+    text-align: center;
+}
+
+.blue {
+    text-shadow: -5px 5px var(--blue);
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}   
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}   
+
+.column {
+    display: flex;
+    flex-direction: column;
+}  
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: min(80%, 80rem);
+}
+
+.box {
+    border: solid 4px white;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.from-left {
+    transform: translateX(-50%);
+}
+
+.from-right {
+    transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+    transition: opacity 1s ease-in,
+             transform 1s ease-in;
+    opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.footer {
+    margin-bottom: 15rem;
+}
+
+.iframe__container {
+    display: flex;
+
+}
+
+.iframe {
+    margin: 1rem;
+}
